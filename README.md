@@ -1,7 +1,7 @@
 # Surfs Up #
 
 # Overview and Purpose #
-This analysis made use of VS Code, SQLite, and PostgresSQL databases to analyze weather trends. These queries provided temperature and precipitation trends for the city of Oahu. An investor is interested in creating a Surf and Ice Cream shop. Using the weather analysis, the investor will determine if temperature and precipitation trends will create variance in the shop remaining open during the months of June and December. Ideally, the investor is interested in the shop remaining open and sustainable year-round. The following analysis reports on these weather trends. 
+Using VSCode, SQLite, and PostgresSQL databases, this analysis examined weather trends. Querying data provided temperature and precipitation trends for the city of Oahu. Interested in creating a Surf and Ice Cream shop, an investor requested temperature and precipitation trends to determine if the shop could remain open during the months of June and December.
 
 # Results #
 
@@ -25,14 +25,14 @@ To further check the frequency of temperature during June and December, the foll
 <p align="center">
 <img src="https://github.com/teachjanderson/surfs_up/blob/main/Resources/December%20Graph.png">
 
-While both months demonstrate a low amount of precipitation overall, the following points should be considered based on the analysis:
-  - The precipitation for both months appears low enough that interference with the surf and ice cream shop should have minimal interruptions. 
+While both months demonstrate a low amount of precipitation overall, the following points are emphasized based on the analysis:
+  - The surf and ice cream shop will experience minimul interruptions by either temperature or precipitation during December and June. 
   - The plot for the month of June demonstrates most days are above 70°F and should provide pleasant weather for business. 
-  - The plot for the month of December demonstrates a slightly lower temperature trend. While many days are above 70°F, there are many below that range. The business should prepare for lower sales in surfing and ice cream during this month than in June, but will still have a number of days that are profitable for business. 
+  - The plot for the month of December demonstrates a slightly lower temperature trend. While many days are above 70°F, there are many below that range. The business should prepare for lower sales in surfing and ice cream during this month. 
   
 # Summary #
 
-In reviewing the average temperature in June and December, along with running two additional queries to determine the average preciptation, it is clear the variance is minimal and will provide opportunities for profit. The surf and ice cream shop will expereince multiple days each month with positive weather for its business. To determine is this remained true throughout the rest of the year, two additional months were queried. Both October and April are known for fluctuation days for weather. However, in reviewing the data, it is clear even these months shows positive weather trends as demonstrated in the table below. 
+In reviewing the average temperature in June and December, along with running two additional queries to determine the average preciptation, it is clear the variance is minimal and will provide opportunities for profit. The surf and ice cream shop will expereince multiple days each month with positive weather for business. To determine sustainability year-round, the months of April and October were queried. In reviewing the data in the table below, it is clear even these months shows positive weather trends and provide evidence for year-round sustainability of the surf and ice cream shop. 
   
 <p align="center">
 <img src="https://github.com/teachjanderson/surfs_up/blob/main/Resources/april_oct.png" />
